@@ -20,5 +20,5 @@ You can install them by running the following command:
 pip install pandas selenium webdriver_manager
 ```
 
-##4. Selenium documentation
+## 4. Selenium documentation
 https://selenium-python.readthedocs.io/
