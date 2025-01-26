@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
 
-filepath = input("Put filepath (without quotation marks): ")
+filepath = input("Put filepath (without quotation marks) for .csv file: ")
 data = pd.read_csv(filepath)
 df = pd.DataFrame(data)
 urls = df["Link"].to_list()
